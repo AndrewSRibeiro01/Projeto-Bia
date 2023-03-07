@@ -1,11 +1,17 @@
+import styled from "styled-components"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import Main from "./Components/Main/Main";
 
 
 function App() {
   return (
     <div>
-      <header>
-        Oláaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-      </header>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
