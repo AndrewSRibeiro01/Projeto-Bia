@@ -1,4 +1,3 @@
-import styled from "styled-components"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import Header from "./Components/Header/Header";
