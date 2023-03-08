@@ -81,7 +81,6 @@ function Main() {
             <br /> <br />
 
             <Cards>
-
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
                     <ImagemCard src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />

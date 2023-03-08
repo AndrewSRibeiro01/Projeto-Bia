@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import Patroa from "../../Imagens/LogoBia.png"
 import Patroa1 from "../../Imagens/LogoBia1.png"
 import Vestido from "../../Imagens/Vestido.png"
 import Cropped from "../../Imagens/Cropped.png"
@@ -19,7 +18,7 @@ const Navbar = styled.header`
 const ImgPatroa = styled.img`
   width: 224px;
 `
-function Header() {
+const Header = () => {
   return (
     <Navbar>
       <nav class="navbar bg-body- " style={{ margin: "0", padding: "0" }}>
