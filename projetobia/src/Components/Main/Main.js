@@ -40,32 +40,48 @@ function Main() {
 
                 <div class="carousel-indicators" style={{ marginBottom: "0px" }}>
 
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"/>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" />
 
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"/>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" />
 
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"/>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" />
 
                 </div>
+
 
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
 
-                        <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="d-block w-100" alt="Camisa" style={{ border: "solid #eb9c20" }} />
+                        <a href="/Anuncio8" style={{ textDecoration: "none", color: "black" }}>
 
-                        <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVUQxPmHRZLmY8i29IypOMPlB0CMA5X4Ndg&usqp=CAU" style={{ width: "300px", height: "300px", border: "solid #eb9c20" }} class="d-block w-100" alt="Camisa" />
+                            <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="d-block w-100" alt="Camisa" style={{ border: "solid #eb9c20" }} />
 
-                        <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="d-block w-100" alt="..." style={{ border: "solid #eb9c20" }} />
-                        <br /> <br />
+                            <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVUQxPmHRZLmY8i29IypOMPlB0CMA5X4Ndg&usqp=CAU" style={{ width: "300px", height: "300px", border: "solid #eb9c20" }} class="d-block w-100" alt="Camisa" />
+
+                            <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="d-block w-100" alt="..." style={{ border: "solid #eb9c20" }} />
+                            <br /> <br />
+                        </a>
                     </div>
+
                     <div class="carousel-item">
-                        <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVUQxPmHRZLmY8i29IypOMPlB0CMA5X4Ndg&usqp=CAU" style={{ width: "300px", height: "300px" }} class="d-block w-100" alt="..." />
-                        <br /> <br />
+
+                        <a href="/Anuncio8" style={{ textDecoration: "none", color: "black" }}>
+
+                            <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVUQxPmHRZLmY8i29IypOMPlB0CMA5X4Ndg&usqp=CAU" style={{ width: "300px", height: "300px" }} class="d-block w-100" alt="..." />
+
+                            <br /> <br />
+                        </a>
                     </div>
+
                     <div class="carousel-item">
-                        <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="d-block w-100" alt="..." />
-                        <br /> <br />
+                        <a href="/Anuncio8" style={{ textDecoration: "none", color: "black" }}>
+                            <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="d-block w-100" alt="..." />
+
+                            <br /> <br />
+
+                        </a>
+
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -83,12 +99,12 @@ function Main() {
             <Cards>
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <a href="/Anuncio" style={{textDecoration:"none", color: "black"}}>
-                    <ImagemCard src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
-                    <div class="card-body" style={{ background: "white" }}>
-                    
-                        <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
-                    </div>
+                    <a href="/Anuncio" style={{ textDecoration: "none", color: "black" }}>
+                        <ImagemCard src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
+                        <div class="card-body" style={{ background: "white" }}>
+
+                            <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
+                        </div>
                     </a>
                 </div>
 
@@ -96,13 +112,16 @@ function Main() {
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
+                    <a href="/Anuncio1" style={{ textDecoration: "none", color: "black" }}>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
 
-                    <div class="card-body" style={{ background: "white" }}>
+                        <div class="card-body" style={{ background: "white" }}>
 
-                        <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
+                            <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
 
-                    </div>
+                        </div>
+
+                    </a>
 
                 </div>
 
@@ -110,27 +129,30 @@ function Main() {
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
+                    <a href="/Anuncio2" style={{ textDecoration: "none", color: "black" }}>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
 
-                    <div class="card-body" style={{ background: "white" }}>
+                        <div class="card-body" style={{ background: "white" }}>
 
-                        <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
+                            <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
 
-                    </div>
-
+                        </div>
+                    </a>
                 </div>
 
                 <br /> <br />
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
+                    <a href="/Anuncio3" style={{ textDecoration: "none", color: "black" }}>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
 
-                    <div class="card-body" style={{ background: "white" }}>
+                        <div class="card-body" style={{ background: "white" }}>
 
-                        <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
+                            <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
 
-                    </div>
+                        </div>
+                    </a>
 
                 </div>
 
@@ -141,27 +163,16 @@ function Main() {
             <Cards>
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
+                    <a href="/Anuncio4" style={{ textDecoration: "none", color: "black" }}>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
 
-                    <div class="card-body" style={{ background: "white" }}>
+                        <div class="card-body" style={{ background: "white" }}>
 
-                        <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians </p>
+                            <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians </p>
 
-                    </div>
+                        </div>
 
-                </div>
-
-                <br />
-
-                <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
-
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
-
-                    <div class="card-body" style={{ background: "white" }}>
-
-                        <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
-
-                    </div>
+                    </a>
 
                 </div>
 
@@ -169,13 +180,34 @@ function Main() {
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
+                    <a href="/Anuncio5" style={{ textDecoration: "none", color: "black" }}>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
 
-                    <div class="card-body" style={{ background: "white" }}>
+                        <div class="card-body" style={{ background: "white" }}>
 
-                        <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
+                            <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
 
-                    </div>
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <br />
+
+                <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
+
+                    <a href="/Anuncio6" style={{ textDecoration: "none", color: "black" }}>
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
+
+                        <div class="card-body" style={{ background: "white" }}>
+
+                            <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
+
+                        </div>
+
+                    </a>
 
                 </div>
 
@@ -183,13 +215,16 @@ function Main() {
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
+                    <a href="/Anuncio7" style={{ textDecoration: "none", color: "black" }}>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
 
-                    <div class="card-body" style={{ background: "white" }}>
+                        <div class="card-body" style={{ background: "white" }}>
 
-                        <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
+                            <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
 
-                    </div>
+                        </div>
+
+                    </a>
 
                 </div>
 

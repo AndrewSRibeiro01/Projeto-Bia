@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Imagem } from "../../Components/Main/Main"
+import { Imagem } from "../Main/Main"
 
 const Principal = styled.div`
     text-align: center;
@@ -33,7 +33,7 @@ const Titulo = styled.h2`
     text-align: left;
 `
 
-const Publish = () => {
+const Publish5 = () => {
     return (
 
         <Principal>
@@ -54,18 +54,18 @@ const Publish = () => {
 
                     <div class="carousel-item active">
 
-                        <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="d-block w-100" alt="Camisa" style={{ border: "solid #eb9c20" }} />
+                        <Imagem src="" alt="Camisa" style={{ border: "solid #eb9c20" }} />
 
                         <p class="card-text" style={{ background: "white", fontWeight: "400px", display: "flex", justifyContent: "center", maxWidth: "300px", border: "solid #eb9c20", borderRadius: "10px", margin: "auto" }}>R$120,00 <br /> Camisa Corinthians</p>
 
                         <br /> <br />
                     </div>
                     <div class="carousel-item">
-                        <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVUQxPmHRZLmY8i29IypOMPlB0CMA5X4Ndg&usqp=CAU" style={{ width: "300px", height: "300px" }} class="d-block w-100" alt="..." />
+                        <Imagem src="" style={{ width: "300px", height: "300px" }} class="d-block w-100" alt="..." />
                         <br /> <br />
                     </div>
                     <div class="carousel-item">
-                        <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="d-block w-100" alt="..." />
+                        <Imagem src="" class="d-block w-100" alt="..." />
                         <br /> <br />
                     </div>
                 </div>
@@ -92,4 +92,4 @@ const Publish = () => {
         </Principal>
     )
 }
-export default Publish
+export default Publish5
