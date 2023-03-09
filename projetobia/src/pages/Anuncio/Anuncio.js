@@ -1,11 +1,15 @@
 import Header from "../../Components/Header/Header"
 import Footer from "../../Components/Footer/Footer"
+import Publish from "../../Components/Publish/Publish"
+
 
 const Anuncio = () => {
     return (
-        <Header>
+        <div>
+            <Header />
+            <Publish />
             <Footer />
-        </Header>
+        </div>
     )
 }
 export default Anuncio

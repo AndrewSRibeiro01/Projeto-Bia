@@ -23,7 +23,7 @@ const Header = () => {
     <Navbar>
       <nav class="navbar bg-body- " style={{ margin: "0", padding: "0" }}>
         <div class="container-fluid" style={{ background: "#e4b1a5", margin: "0 10px 0px 0px", padding: "0" }}>
-          <a class="navbar-brand" href="#" style={{ color: "white", fontWeight: "500", margin: "0", padding: "0" }}> <ImgPatroa src={Patroa1} /></a>
+          <a class="navbar-brand" href="/" style={{ color: "white", fontWeight: "500", margin: "0", padding: "0" }}> <ImgPatroa src={Patroa1} /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon" />
           </button>

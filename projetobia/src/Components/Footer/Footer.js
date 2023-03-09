@@ -17,6 +17,10 @@ const Rodape = styled.footer`
 `
 const Sac = styled.p`
     cursor: pointer;
+    :hover{
+        transition: 0.3s;
+        font-size: 28px;
+    }
 `
 const Footer = () => {
     return (

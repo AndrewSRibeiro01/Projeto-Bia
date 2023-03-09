@@ -2,10 +2,10 @@ import styled from "styled-components"
 
 const Principal = styled.main`
   text-align: center;
-  background-image: url(https://i.ibb.co/BjFL047/20230308-143633-0000.png);
-  /* background-color: #eac7b4; */
+  /* background-image: url(https://i.ibb.co/WPFk5Hw/20230308-195123-0000.png); */
+  background-color: #eac7b4;
 `
-const Imagem = styled.img`
+export const Imagem = styled.img`
   cursor: pointer;
   width: 300px;
   margin: 5px;
@@ -83,12 +83,13 @@ function Main() {
             <Cards>
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
+                    <a href="/Anuncio" style={{textDecoration:"none", color: "black"}}>
                     <ImagemCard src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
-
                     <div class="card-body" style={{ background: "white" }}>
-
+                    
                         <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
                     </div>
+                    </a>
                 </div>
 
                 <br />
