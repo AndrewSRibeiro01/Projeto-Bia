@@ -1,23 +1,11 @@
-import styled from "styled-components"
 import Patroa1 from "../../Imagens/LogoBia1.png"
 import Vestido from "../../Imagens/Vestido.png"
 import Cropped from "../../Imagens/Cropped.png"
 import Biquini from "../../Imagens/Biquini.png"
 import Lingerie from "../../Imagens/Lingerie.png"
+import { Navbar } from "../../Estilizações/EHeader"
+import { ImgPatroa } from "../../Estilizações/EHeader"
 
-const Navbar = styled.header`
-  background-color: #e4b1a5;
-  width: 100%;
-  height: 120px;
-  display: flow-root;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-`
-const ImgPatroa = styled.img`
-  width: 224px;
-`
 const Header = () => {
   return (
     <Navbar>

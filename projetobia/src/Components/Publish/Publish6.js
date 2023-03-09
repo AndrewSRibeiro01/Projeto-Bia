@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Imagem } from "../Main/Main"
+import { Imagem } from "../../Estilizações/EMain"
 
 const Principal = styled.div`
     text-align: center;

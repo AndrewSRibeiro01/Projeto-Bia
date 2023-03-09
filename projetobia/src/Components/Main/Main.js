@@ -1,34 +1,8 @@
-import styled from "styled-components"
+import { Imagem } from "../../Estilizações/EMain"
+import { Principal } from "../../Estilizações/EMain"
+import { Espaço } from "../../Estilizações/EMain"
+import { Cards } from "../../Estilizações/EMain"
 
-const Principal = styled.main`
-  text-align: center;
-  /* background-image: url(https://i.ibb.co/WPFk5Hw/20230308-195123-0000.png); */
-  background-color: #eac7b4;
-`
-export const Imagem = styled.img`
-  cursor: pointer;
-  width: 300px;
-  margin: 5px;
-  padding: 0;
-  border-radius: 10px;
-`
-const ImagemCard = styled.img`
-    cursor: pointer;
-    width: 300px;
-    margin: 0px;
-    padding: 0;
-`
-const Cards = styled.div`
-    display: flex;
-    gap: 5px;
-    justify-content: center;
-`
-const Espaço = styled.div`
-    width: 100%;
-    height: 5px;
-    background-color: #59371c;
-    margin-bottom: 70px;
-`
 
 function Main() {
     return (
@@ -97,15 +71,20 @@ function Main() {
             <br /> <br />
 
             <Cards>
+
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <a href="/Anuncio" style={{ textDecoration: "none", color: "black" }}>
-                        <ImagemCard src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
+                    <a href="/Anuncio2" style={{ textDecoration: "none", color: "black" }}>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
+
                         <div class="card-body" style={{ background: "white" }}>
 
                             <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
+
                         </div>
+
                     </a>
+
                 </div>
 
                 <br />
