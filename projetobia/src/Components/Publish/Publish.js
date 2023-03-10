@@ -5,6 +5,14 @@ import { MaisAnuncios } from "../../Estilizações/EPublish"
 import { Background } from "../../Estilizações/EPublish"
 import { Descrição } from "../../Estilizações/EPublish"
 import { Titulo } from "../../Estilizações/EPublish"
+import styled from "styled-components"
+
+const Botão = styled.button`
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: white;
+    border: solid ;
+`
 
 const Publish = () => {
     return (
@@ -51,6 +59,9 @@ const Publish = () => {
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+
+            <Botão>Comprar</Botão>
+            <Botão>Adicionar ao carrinho de compras</Botão>
 
             <MaisAnuncios>
                 <Descrição>Descrição do produto</Descrição>

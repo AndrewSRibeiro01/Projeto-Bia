@@ -1,4 +1,3 @@
-import ImgFooter from "../../Imagens/Footer.png"
 import { Rodape } from "../../Estilizações/EFooter"
 import { Sac } from "../../Estilizações/EFooter"
 

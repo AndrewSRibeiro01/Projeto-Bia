@@ -5,13 +5,14 @@ import Biquini from "../../Imagens/Biquini.png"
 import Lingerie from "../../Imagens/Lingerie.png"
 import { Navbar } from "../../Estilizações/EHeader"
 import { ImgPatroa } from "../../Estilizações/EHeader"
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
     <Navbar>
       <nav class="navbar bg-body- " style={{ margin: "0", padding: "0" }}>
         <div class="container-fluid" style={{ background: "#e4b1a5", margin: "0 10px 0px 0px", padding: "0" }}>
-          <a class="navbar-brand" href="/" style={{ color: "white", fontWeight: "500", margin: "0", padding: "0" }}> <ImgPatroa src={Patroa1} /></a>
+          <Link to={"/"} style={{ color: "white", fontWeight: "500", margin: "0", padding: "0" }} class="navbar-brand"> <ImgPatroa src={Patroa1} /></Link>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon" />
           </button>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Imagem } from "../../Estilizações/EMain"
 import { Principal } from "../../Estilizações/EMain"
 import { Espaço } from "../../Estilizações/EMain"
@@ -27,7 +28,7 @@ function Main() {
 
                     <div class="carousel-item active">
 
-                        <a href="/Anuncio8" style={{ textDecoration: "none", color: "black" }}>
+                        <Link to="/Anuncio8" style={{ textDecoration: "none", color: "black" }}>
 
                             <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="d-block w-100" alt="Camisa" style={{ border: "solid #eb9c20" }} />
 
@@ -35,12 +36,12 @@ function Main() {
 
                             <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="d-block w-100" alt="..." style={{ border: "solid #eb9c20" }} />
                             <br /> <br />
-                        </a>
+                        </Link>
                     </div>
 
                     <div class="carousel-item">
 
-                        <a href="/Anuncio8" style={{ textDecoration: "none", color: "black" }}>
+                        <a to="/Anuncio8" style={{ textDecoration: "none", color: "black" }}>
 
                             <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVUQxPmHRZLmY8i29IypOMPlB0CMA5X4Ndg&usqp=CAU" style={{ width: "300px", height: "300px" }} class="d-block w-100" alt="..." />
 
@@ -49,7 +50,7 @@ function Main() {
                     </div>
 
                     <div class="carousel-item">
-                        <a href="/Anuncio8" style={{ textDecoration: "none", color: "black" }}>
+                        <a to="/Anuncio8" style={{ textDecoration: "none", color: "black" }}>
                             <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="d-block w-100" alt="..." />
 
                             <br /> <br />
@@ -74,7 +75,7 @@ function Main() {
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <a href="/Anuncio2" style={{ textDecoration: "none", color: "black" }}>
+                    <Link to={"/Anuncio"} style={{ textDecoration: "none", color: "black" }}>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
 
                         <div class="card-body" style={{ background: "white" }}>
@@ -83,7 +84,7 @@ function Main() {
 
                         </div>
 
-                    </a>
+                    </Link>
 
                 </div>
 
@@ -91,7 +92,7 @@ function Main() {
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <a href="/Anuncio1" style={{ textDecoration: "none", color: "black" }}>
+                    <Link to={"/Anuncio1"} style={{ textDecoration: "none", color: "black" }}>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
 
                         <div class="card-body" style={{ background: "white" }}>
@@ -100,7 +101,7 @@ function Main() {
 
                         </div>
 
-                    </a>
+                    </Link>
 
                 </div>
 
@@ -108,7 +109,7 @@ function Main() {
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <a href="/Anuncio2" style={{ textDecoration: "none", color: "black" }}>
+                    <Link to={"/Anuncio2"} style={{ textDecoration: "none", color: "black" }}>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
 
                         <div class="card-body" style={{ background: "white" }}>
@@ -116,14 +117,14 @@ function Main() {
                             <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
 
                         </div>
-                    </a>
+                    </Link>
                 </div>
 
                 <br /> <br />
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <a href="/Anuncio3" style={{ textDecoration: "none", color: "black" }}>
+                    <Link to={"/Anuncio3"} style={{ textDecoration: "none", color: "black" }}>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
 
                         <div class="card-body" style={{ background: "white" }}>
@@ -131,7 +132,7 @@ function Main() {
                             <p class="card-text" style={{ background: "white", fontWeight: "400px" }}>R$120,00 <br /> Camisa Corinthians</p>
 
                         </div>
-                    </a>
+                    </Link>
 
                 </div>
 
@@ -142,7 +143,7 @@ function Main() {
             <Cards>
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <a href="/Anuncio4" style={{ textDecoration: "none", color: "black" }}>
+                    <Link to={"/Anuncio4"} style={{ textDecoration: "none", color: "black" }}>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
 
                         <div class="card-body" style={{ background: "white" }}>
@@ -151,7 +152,7 @@ function Main() {
 
                         </div>
 
-                    </a>
+                    </Link>
 
                 </div>
 
@@ -159,7 +160,7 @@ function Main() {
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <a href="/Anuncio5" style={{ textDecoration: "none", color: "black" }}>
+                    <Link to="/Anuncio5" style={{ textDecoration: "none", color: "black" }}>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
 
                         <div class="card-body" style={{ background: "white" }}>
@@ -168,7 +169,7 @@ function Main() {
 
                         </div>
 
-                    </a>
+                    </Link>
 
                 </div>
 
@@ -176,7 +177,7 @@ function Main() {
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <a href="/Anuncio6" style={{ textDecoration: "none", color: "black" }}>
+                    <Link to="/Anuncio6" style={{ textDecoration: "none", color: "black" }}>
 
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="card-img-top" alt="Camisa" />
 
@@ -186,7 +187,7 @@ function Main() {
 
                         </div>
 
-                    </a>
+                    </Link>
 
                 </div>
 
@@ -194,7 +195,7 @@ function Main() {
 
                 <div class="card" style={{ width: "18rem", border: "solid #eb9c20", boxShadow: "6px 6px 2px 1px rgba(0, 0, 0, 0.2)" }}>
 
-                    <a href="/Anuncio7" style={{ textDecoration: "none", color: "black" }}>
+                    <Link to="/Anuncio7" style={{ textDecoration: "none", color: "black" }}>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="card-img-top" alt="Camisa" />
 
                         <div class="card-body" style={{ background: "white" }}>
@@ -203,7 +204,7 @@ function Main() {
 
                         </div>
 
-                    </a>
+                    </Link>
 
                 </div>
 

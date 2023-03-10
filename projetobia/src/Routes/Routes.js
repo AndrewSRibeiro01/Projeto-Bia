@@ -17,22 +17,24 @@ import Anuncio12 from "../pages/Anuncio/Anuncio12"
 
 const AppRoute = () => {
     return (
-        <Routes>
-            <Route path="/" element={<Inicio />} />
-            <Route path="/Anuncio" element={<Anuncio />} />
-            <Route path="/Anuncio1" element={<Anuncio1 />} />
-            <Route path="/Anuncio2" element={<Anuncio2 />} />
-            <Route path="/Anuncio3" element={<Anuncio3 />} />
-            <Route path="/Anuncio4" element={<Anuncio4 />} />
-            <Route path="/Anuncio5" element={<Anuncio5 />} />
-            <Route path="/Anuncio6" element={<Anuncio6 />} />
-            <Route path="/Anuncio7" element={<Anuncio7 />} />
-            <Route path="/Anuncio8" element={<Anuncio8 />} />
-            <Route path="/Anuncio9" element={<Anuncio9 />} />
-            <Route path="/Anuncio10" element={<Anuncio10 />} />
-            <Route path="/Anuncio11" element={<Anuncio11 />} />
-            <Route path="/Anuncio12" element={<Anuncio12 />} />
-        </Routes>
+        <main>
+            <Routes>
+                <Route path="/" element={<Inicio />} />
+                <Route path="/Anuncio" element={<Anuncio />} />
+                <Route path="/Anuncio1" element={<Anuncio1 />} />
+                <Route path="/Anuncio2" element={<Anuncio2 />} />
+                <Route path="/Anuncio3" element={<Anuncio3 />} />
+                <Route path="/Anuncio4" element={<Anuncio4 />} />
+                <Route path="/Anuncio5" element={<Anuncio5 />} />
+                <Route path="/Anuncio6" element={<Anuncio6 />} />
+                <Route path="/Anuncio7" element={<Anuncio7 />} />
+                <Route path="/Anuncio8" element={<Anuncio8 />} />
+                <Route path="/Anuncio9" element={<Anuncio9 />} />
+                <Route path="/Anuncio10" element={<Anuncio10 />} />
+                <Route path="/Anuncio11" element={<Anuncio11 />} />
+                <Route path="/Anuncio12" element={<Anuncio12 />} />
+            </Routes>
+        </main>
     )
 }
 
