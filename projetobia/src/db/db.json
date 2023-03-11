@@ -1,0 +1,50 @@
+[
+    {
+        "id": 11,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "description": "Camisa Flamengo",
+        "price": 120
+    },
+    {
+        "id": 22,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "description": "Camisa Corithians",
+        "price": 120
+    },
+    {
+        "id": 33,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "description": "Camisa Corithians",
+        "price": 120
+    },
+    {
+        "id": 44,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "description": "Camisa Corithians",
+        "price": 120
+    },
+    {
+        "id": 55,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "description": "Camisa Corithians",
+        "price": 120
+    },
+    {
+        "id": 66,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "description": "Camisa Corithians",
+        "price": 120
+    },
+    {
+        "id": 77,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "description": "Camisa Corithians",
+        "price": 120
+    },
+    {
+        "id": 88,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "description": "Camisa Corithians",
+        "price": 120
+    }
+]

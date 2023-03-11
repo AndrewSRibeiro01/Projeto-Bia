@@ -20,8 +20,18 @@ export const ImagemCard = styled.img`
 `
 export const Cards = styled.div`
     display: flex;
-    gap: 5px;
+    max-width:1160px;
+    gap: 10px;
+    flex-wrap:wrap;
+    width:70%;
+    margin: 0 auto;
     justify-content: center;
+`
+export const CardItens = styled.div`
+    gap: 5px;
+    cursor:pointer;
+    display:flex;
+   
 `
 export const Espaço = styled.div`
     width: 100%;

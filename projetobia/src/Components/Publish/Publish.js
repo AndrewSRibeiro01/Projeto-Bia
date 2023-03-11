@@ -2,10 +2,22 @@ import { Imagem } from "../../Estilizações/EMain"
 import { Principal } from "../../Estilizações/EPublish"
 import { Espaço } from "../../Estilizações/EPublish"
 import { MaisAnuncios } from "../CardDescrição/CardDescrição"
+import { useParams } from "react-router-dom"
 import Botão from "../Botão/Botão"
+import data from "../../db/db.json"
+import { useEffect, useState } from "react"
 
 
-const Publish = () => {
+const Publish = (props) => {
+
+    const [values, setValues] = useState({})
+    const { id } = useParams()
+
+    useEffect(() => {
+        const values = data.find(item => item.id == id)
+        setValues(values)
+    }, [])
+    
     return (
         <Principal>
             <Espaço></Espaço>
@@ -25,18 +37,18 @@ const Publish = () => {
 
                     <div class="carousel-item active">
 
-                        <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI0SE2RpZylR53qfF-poSOECbz65x2ny_OA&usqp=CAU" class="d-block w-100" alt="Camisa" style={{ border: "solid #eb9c20" }} />
+                        <Imagem src={values.image} class="d-block w-100" alt="Camisa" style={{ border: "solid #eb9c20" }} />
 
-                        <p class="card-text" style={{ background: "white", fontWeight: "400px", display: "flex", justifyContent: "center", maxWidth: "300px", border: "solid #eb9c20", borderRadius: "10px", margin: "auto" }}>R$120,00 <br /> Camisa Corinthians</p>
+                        <p class="card-text" style={{ background: "white", fontWeight: "400px", display: "flex", justifyContent: "center", maxWidth: "300px", border: "solid #eb9c20", borderRadius: "10px", margin: "auto" }}>R${values.price},00 <br />{values.description}</p>
 
                         <br /> <br />
                     </div>
                     <div class="carousel-item">
-                        <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVUQxPmHRZLmY8i29IypOMPlB0CMA5X4Ndg&usqp=CAU" style={{ width: "300px", height: "300px" }} class="d-block w-100" alt="..." />
+                        <Imagem src={values.image} style={{ width: "300px", height: "300px" }} class="d-block w-100" alt="..." />
                         <br /> <br />
                     </div>
                     <div class="carousel-item">
-                        <Imagem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU" class="d-block w-100" alt="..." />
+                        <Imagem src={values.image} class="d-block w-100" alt="..." />
                         <br /> <br />
                     </div>
                 </div>
@@ -50,7 +62,7 @@ const Publish = () => {
                 </button>
             </div>
             <Botão />
-            <MaisAnuncios />
+            <MaisAnuncios description={values.description} />
         </Principal>
     )
 }
