@@ -1,22 +1,12 @@
 import { Imagem } from "../../Estilizações/EMain"
 import { Principal } from "../../Estilizações/EPublish"
 import { Espaço } from "../../Estilizações/EPublish"
-import { MaisAnuncios } from "../../Estilizações/EPublish"
-import { Background } from "../../Estilizações/EPublish"
-import { Descrição } from "../../Estilizações/EPublish"
-import { Titulo } from "../../Estilizações/EPublish"
-import styled from "styled-components"
+import { MaisAnuncios } from "../CardDescrição/CardDescrição"
+import Botão from "../Botão/Botão"
 
-const Botão = styled.button`
-    border-radius: 10px;
-    font-size: 15px;
-    background-color: white;
-    border: solid ;
-`
 
 const Publish = () => {
     return (
-
         <Principal>
             <Espaço></Espaço>
             <div id="carouselExampleIndicators" class="carousel slide">
@@ -59,20 +49,8 @@ const Publish = () => {
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
-            <Botão>Comprar</Botão>
-            <Botão>Adicionar ao carrinho de compras</Botão>
-
-            <MaisAnuncios>
-                <Descrição>Descrição do produto</Descrição>
-                <Titulo>Peças únicas</Titulo>
-                <Titulo>Produtos importados da Shein</Titulo>
-                <Titulo>Pronta entrega</Titulo>
-                <br />
-                <Titulo>Medidas:</Titulo>
-            </MaisAnuncios>
-            <Background></Background>
-
+            <Botão />
+            <MaisAnuncios />
         </Principal>
     )
 }

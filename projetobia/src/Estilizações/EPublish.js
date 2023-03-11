@@ -11,7 +11,7 @@ export const Espaço = styled.div`
     background-color: #59371c;
     margin-bottom: 70px;
 `
-export const MaisAnuncios = styled.div`
+export const EMaisAnuncios = styled.div`
     padding: 15px;
     margin: 70px 15px 15px 15px;
     width: auto;
