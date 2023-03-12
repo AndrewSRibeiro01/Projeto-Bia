@@ -1,10 +1,14 @@
-import { Rodape } from "../../Estilizações/EFooter"
-import { Sac } from "../../Estilizações/EFooter"
+import { Rodape, Sac, Imagem } from "../../Estilizações/EFooter"
+import LogoWhatsapp from "../../Imagens/whatsApp.png"
+import LogoInsta from "../../Imagens/Insta.png"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
         <Rodape>
-            <Sac>Sac</Sac> <Sac>Contato</Sac>
+            <Link to="https://www.instagram.com/biancarodrigueixx/" target="_blank" style={{ textDecoration: "none", color:"white" }}><Sac>Instagram <br /> <Imagem src={LogoInsta} /> </Sac></Link>
+            
+                <Link to="https://wa.me/5511934627103?text=Oi%2C+Bianca%2C+estava+olhando+sua+pagina" target="_blank"  style={{ textDecoration: "none", color:"white"}}><Sac>Contato <br /> <Imagem src={LogoWhatsapp} /></Sac></Link>
         </Rodape>
     )
 }

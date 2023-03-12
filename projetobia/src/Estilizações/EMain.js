@@ -8,9 +8,11 @@ export const Principal = styled.main`
 export const Imagem = styled.img`
   cursor: pointer;
   width: 300px;
-  margin: 5px;
+  margin: 5px 7px 30px 0 ;
   padding: 0;
   border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 20%) 6px 6px 2px 1px;
+
 `
 export const ImagemCard = styled.img`
     cursor: pointer;
@@ -39,3 +41,9 @@ export const Espaço = styled.div`
     background-color: #59371c;
     margin-bottom: 70px;
 `
+export const Div = styled.div`
+    margin-bottom: 50px;
+`
+export const QuebraDeLinha = styled.br`
+`
+

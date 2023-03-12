@@ -30,4 +30,11 @@ export const Titulo = styled.h2`
     color: white;
     font-size: 15px;
     text-align: left;
+    margin-top:15px;
+`
+export const Medidas = styled.h2`
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 30px;
 `

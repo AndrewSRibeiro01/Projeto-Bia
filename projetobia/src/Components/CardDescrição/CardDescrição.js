@@ -1,8 +1,4 @@
-import { EMaisAnuncios } from "../../Estilizações/EPublish"
-import { Background } from "../../Estilizações/EPublish"
-import { Descrição } from "../../Estilizações/EPublish"
-import { Titulo } from "../../Estilizações/EPublish"
-
+import { EMaisAnuncios, Medidas, Background, Titulo, Descrição } from "../../Estilizações/EPublish"
 
 export const MaisAnuncios = () => {
     return (
@@ -12,10 +8,9 @@ export const MaisAnuncios = () => {
                 <Titulo>Peças únicas</Titulo>
                 <Titulo>Produtos importados da Shein</Titulo>
                 <Titulo>Pronta entrega</Titulo>
-                <br />
-                <Titulo>Medidas:</Titulo>
+                <Medidas>Medidas:</Medidas>
             </EMaisAnuncios>
-            <Background></Background>
+            <Background />
         </main>
     )
 }

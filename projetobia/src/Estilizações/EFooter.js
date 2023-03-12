@@ -21,3 +21,12 @@ export const Sac = styled.p`
         font-size: 28px;
     }
 `
+export const Imagem = styled.img`
+    width: 35px;
+    height: 35px;
+    :hover{
+        width: 40px;
+        height: 40px;
+        transition: 0.3s;
+    }
+`

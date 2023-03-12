@@ -1,8 +1,7 @@
 import { EBotão } from "../../Estilizações/EBotão"
 import Carrinho from "../../Imagens/CarrinhoDeCompras.png"
 import Cifrão from "../../Imagens/Cifrão.png"
-import { Imagem } from "../../Estilizações/EBotão"
-import { Imagem1 } from "../../Estilizações/EBotão"
+import { Imagem, Imagem1 } from "../../Estilizações/EBotão"
 
 const Botão = () => {
     return (
