@@ -28,12 +28,14 @@ export const Cards = styled.div`
     width:70%;
     margin: 0 auto;
     justify-content: center;
+    @media (max-width: 768px){
+        width:100%;
+    }
 `
 export const CardItens = styled.div`
     gap: 5px;
     cursor:pointer;
     display:flex;
-   
 `
 export const Espaço = styled.div`
     width: 100%;
@@ -46,4 +48,9 @@ export const Div = styled.div`
 `
 export const QuebraDeLinha = styled.br`
 `
+export const H1 = styled.h1`
+    color: #eb9c20;
+    margin-bottom: 20px;
+`
+
 
