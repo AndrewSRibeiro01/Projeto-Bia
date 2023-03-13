@@ -17,6 +17,9 @@ const Botão = () => {
                     <Imagem1 src={Carrinho} alt="Carrinho" />
                 </button>
             </div>
+
+
+            
         </EBotão>
     )
 } 
