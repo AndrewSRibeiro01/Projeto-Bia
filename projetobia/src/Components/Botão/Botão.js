@@ -19,6 +19,6 @@ const Botão = () => {
             </div>
         </EBotão>
     )
-}
+} 
 
 export default Botão
