@@ -1,7 +1,7 @@
 import { Imagem, Div } from "../../Estilizações/EMain"
 import { Principal, Espaço } from "../../Estilizações/EPublish"
 import { MaisAnuncios } from "../CardDescrição/CardDescrição"
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import Botão from "../Botão/Botão"
 import data from "../../db/db.json"
 import { useEffect, useState } from "react"
@@ -10,9 +10,11 @@ const Publish = (props) => {
 
     const [values, setValues] = useState({})
     const { id } = useParams()
+    const navigate  = useNavigate()
 
     useEffect(() => {
         const values = data.find(item => item.id == id)
+        if(!values) navigate('/404')
         setValues(values)
     }, [])
 
