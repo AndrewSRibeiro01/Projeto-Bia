@@ -1,4 +1,4 @@
-import AppRoute from '../src/Routes/Routes'
+import AppRoute from './Routes/Routes'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import { BrowserRouter } from 'react-router-dom'
