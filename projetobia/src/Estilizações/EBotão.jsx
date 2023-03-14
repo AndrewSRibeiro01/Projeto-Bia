@@ -10,10 +10,10 @@ export const Imagem = styled.img`
 `
 export const EBotão = styled.button`
     display: flex;
-    background-color: white;
     width: 100%;
     background-color: #EAC7b4;
     justify-content: center;
     border: none;
-    gap:5px;
+    gap:15px;
+    margin-top: 15px;
 `
