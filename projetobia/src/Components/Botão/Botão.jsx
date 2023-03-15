@@ -1,24 +1,23 @@
 import { EBotão } from "../../Estilizações/EBotão"
 import Carrinho from "../../Imagens/CarrinhoDeCompras.png"
 import Cifrão from "../../Imagens/Cifrão.png"
-import { Imagem, Imagem1 } from "../../Estilizações/EBotão"
 
 const Botão = () => {
     return (
         <EBotão>
             <div>
-                <button type="button" class="btn btn-success">Comprar 
-                <Imagem src={Cifrão} alt="Dolar" />
+                <button className="verde">Comprar
+                    <img width="25px" height="25px" src={Cifrão} alt="Dolar" />
                 </button>
             </div>
             <div>
-                <button type="button" class="btn btn-warning">
+                <button className="amarelo">
                     Carrinho
-                    <Imagem1 src={Carrinho} alt="Carrinho" />
+                    <img width="30px" height="30px"src={Carrinho} alt="Carrinho" />
                 </button>
             </div>
         </EBotão>
     )
-} 
+}
 
 export default Botão

@@ -17,6 +17,7 @@ export const EMaisAnuncios = styled.div`
     width: auto;
     height: 300px;
     border: solid #eb9c20;
+    border-radius: 10px;
 `
 export const Background = styled.div`
     width: 100%;
@@ -28,13 +29,13 @@ export const Descrição = styled.h1`
 `
 export const Titulo = styled.h2`
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
     margin-top:15px;
 `
 export const Medidas = styled.h2`
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
     margin-top: 30px;
 `

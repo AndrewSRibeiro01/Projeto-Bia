@@ -12,4 +12,5 @@ export const Navbar = styled.header`
 `
 export const ImgPatroa = styled.img`
   width: 224px;
+  margin: 0 0 0 10px;
 `

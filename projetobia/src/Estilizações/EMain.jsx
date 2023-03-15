@@ -51,6 +51,7 @@ export const QuebraDeLinha = styled.br`
 export const H1 = styled.h1`
     color: #eb9c20;
     margin-bottom: 20px;
+    font-family: sans-serif;
 `
 
 
