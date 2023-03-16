@@ -6,7 +6,6 @@ export const Principal = styled.main`
   background-color: #eac7b4;
 `
 export const Imagem = styled.img`
-  cursor: pointer;
   width: 300px;
   margin: 5px 7px 30px 0 ;
   padding: 0;

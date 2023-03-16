@@ -15,7 +15,7 @@ function Main() {
 
                             <Link to={`/Anuncio/${item.id}`} style={{ textDecoration: "none", color: "black" }}>
 
-                                <img src={item.image} className="card-img-top" alt={item.description} style={{ width: "300px", height: "300px" }} />
+                                <img draggable="false" src={item.images[0]} className="card-img-top" alt={item.description} style={{ width: "300px", height: "300px" }} />
 
                                 <div className="card-body" style={{ background: "white" }}>
 

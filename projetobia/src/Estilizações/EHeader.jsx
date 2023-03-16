@@ -14,3 +14,6 @@ export const ImgPatroa = styled.img`
   width: 224px;
   margin: 0 0 0 10px;
 `
+export const H5 = styled.h5`
+    color: #Eb9c20
+`

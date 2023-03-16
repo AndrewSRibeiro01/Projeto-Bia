@@ -2,8 +2,15 @@ import styled from "styled-components"
 
 export const Principal = styled.div`
     text-align: center;
-    /* background-image: url(https://i.ibb.co/WPFk5Hw/20230308-195123-0000.png); */
     background-color: #eac7b4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    .swiper-button-next, .swiper-button-prev{
+        color: white;
+    }
 `
 export const Espaço = styled.div`
     width: 100%;

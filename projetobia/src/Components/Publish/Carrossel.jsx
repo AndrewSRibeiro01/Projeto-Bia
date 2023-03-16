@@ -19,7 +19,7 @@ export const Carrossel = () => {
                 freeMode={true}
                 slidesPerView={3}
                 loop={true}
-                autoplay={{ delay: 2500, disableOnInteraction: false, }}
+                autoplay={{ delay: 3000, disableOnInteraction: false, }}
 
                 breakpoints={{
                     280: {

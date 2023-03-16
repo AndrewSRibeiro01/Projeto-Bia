@@ -1,73 +1,92 @@
 [
     {
+        "category": "Gremio",
         "id": 11,
-        "image": "https://cdn.awsli.com.br/600x450/779/779108/produto/176546625/f3f99a64ae.jpg",
-        "image1": "https://cdn.awsli.com.br/1000x1000/779/779108/produto/176546625/13f07f6c9f.jpg",
-        "image2": "https://cdn.awsli.com.br/1000x1000/779/779108/produto/176546625/57861240da.jpg",
+        "images": [
+            "https://cdn.awsli.com.br/600x450/779/779108/produto/176546625/f3f99a64ae.jpg",
+            "https://cdn.awsli.com.br/1000x1000/779/779108/produto/176546625/13f07f6c9f.jpg",
+            "https://cdn.awsli.com.br/1000x1000/779/779108/produto/176546625/57861240da.jpg"
+        ],
         "description": "Camisa Grêmio",
         "price": 110
     },
     {
         "id": 22,
-        "image": "https://flamengo.vteximg.com.br/arquivos/ids/164071-473-473/H18340_1-removebg-preview.png?v=637807439979400000",
-        "image1": "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2223-sn-torcedor-adidas-masculina/68/3ZP-5382-068/3ZP-5382-068_zoom3.jpg?ts=1644858741&?ims=544xhttps://static.netshoes.com.br/produtos/camisa-flamengo-i-2223-sn-torcedor-adidas-masculina/68/3ZP-5382-068/3ZP-5382-068_zoom3.jpg?ts=1644858741&?ims=1088x",
-        "image2": "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2223-sn-torcedor-adidas-masculina/68/3ZP-5382-068/3ZP-5382-068_zoom2.jpg?ts=1644858741&?ims=544xhttps://static.netshoes.com.br/produtos/camisa-flamengo-i-2223-sn-torcedor-adidas-masculina/68/3ZP-5382-068/3ZP-5382-068_zoom2.jpg?ts=1644858741&?ims=1088x",
+        "images": [
+            "https://flamengo.vteximg.com.br/arquivos/ids/164071-473-473/H18340_1-removebg-preview.png?v=637807439979400000",
+            "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2223-sn-torcedor-adidas-masculina/68/3ZP-5382-068/3ZP-5382-068_zoom3.jpg?ts=1644858741&?ims=544xhttps://static.netshoes.com.br/produtos/camisa-flamengo-i-2223-sn-torcedor-adidas-masculina/68/3ZP-5382-068/3ZP-5382-068_zoom3.jpg?ts=1644858741&?ims=1088x",
+            "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2223-sn-torcedor-adidas-masculina/68/3ZP-5382-068/3ZP-5382-068_zoom2.jpg?ts=1644858741&?ims=544xhttps://static.netshoes.com.br/produtos/camisa-flamengo-i-2223-sn-torcedor-adidas-masculina/68/3ZP-5382-068/3ZP-5382-068_zoom2.jpg?ts=1644858741&?ims=1088x"
+        ],
         "description": "Camisa Flamengo",
         "price": 140
     },
     {
         "id": 33,
-        "image": "https://imgnike-a.akamaihd.net/768x768/023176BP.jpg",
-        "image1": "https://imgnike-a.akamaihd.net/768x768/023176BPA1.jpg",
-        "image2": "https://imgnike-a.akamaihd.net/768x768/023176BPA5.jpg",
+        "images": [
+            "https://imgnike-a.akamaihd.net/768x768/023176BP.jpg",
+            "https://imgnike-a.akamaihd.net/768x768/023176BPA1.jpg",
+            "https://imgnike-a.akamaihd.net/768x768/023176BPA5.jpg"
+        ],
         "description": "Camisa Corinthians",
         "price": 270
     },
     {
         "id": 44,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
-        "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
-        "image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU"
+        ],
         "description": "Camisa Corinthians",
         "price": 120
     },
     {
         "id": 55,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
-        "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
-        "image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU"
+        ],
         "description": "Camisa Corinthians",
         "price": 120
     },
     {
         "id": 66,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
-        "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
-        "image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU"
+        ],
         "description": "Camisa Corinthians",
         "price": 120
     },
     {
         "id": 77,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
-        "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
-        "image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU"
+        ],
         "description": "Camisa Corinthians",
         "price": 120
     },
     {
         "id": 88,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
-        "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
-        "image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimtthLVSYDk0GpGwoXeqEvoozHNLA8uwLOw&usqp=CAU"
+        ],
         "description": "Camisa Corinthians",
         "price": 120
     },
     {
         "id": 99,
-        "image": "https://m.media-amazon.com/images/I/41X1Kxja7UL._AC_SX425_.jpg",
-        "image1": "https://m.media-amazon.com/images/I/616bxN9UMOL._AC_SX425_.jpg",
-        "image2": "https://m.media-amazon.com/images/I/41daXozIsZL._AC_SX425_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/41X1Kxja7UL._AC_SX425_.jpg",
+            "https://m.media-amazon.com/images/I/616bxN9UMOL._AC_SX425_.jpg",
+            "https://m.media-amazon.com/images/I/41daXozIsZL._AC_SX425_.jpg"
+        ],
         "description": "Camisa Corinthians",
         "price": 120
     }
