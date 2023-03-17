@@ -46,9 +46,9 @@ export const Carrossel = () => {
 
                 {data.fotos.map((index, key) =>
                     <SwiperSlide key={key}>
-                        <Link to="/Anuncio/99" style={{ textDecoration: "none", color: "black" }}>
+                        <a href="/Anuncio/99" style={{ textDecoration: "none", color: "black" }}>
                             <Imagem src={index} alt="Camisa" style={{ border: "solid #eb9c20" }} />
-                        </Link>
+                        </a>
                     </SwiperSlide>
                 )}
             </Swiper>
