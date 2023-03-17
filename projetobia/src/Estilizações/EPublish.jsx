@@ -10,6 +10,13 @@ export const Principal = styled.div`
     text-align: center;
     .swiper-button-next, .swiper-button-prev{
         color: white;
+        font-size: 15px;
+    }
+    .swiper-button-next:after {
+        font-size: 30px;
+    }
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+        font-size: 30px;
     }
 `
 export const Espaço = styled.div`

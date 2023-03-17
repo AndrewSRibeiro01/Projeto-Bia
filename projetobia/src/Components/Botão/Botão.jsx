@@ -13,7 +13,7 @@ const Botão = () => {
             <div>
                 <button className="amarelo">
                     Carrinho
-                    <img width="30px" height="30px"src={Carrinho} alt="Carrinho" />
+                    <img width="30px" height="30px" src={Carrinho} alt="Carrinho" />
                 </button>
             </div>
         </EBotão>

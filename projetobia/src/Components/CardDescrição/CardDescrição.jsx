@@ -2,7 +2,7 @@ import { EMaisAnuncios, Medidas, Background, Titulo, Descrição } from "../../E
 
 export const MaisAnuncios = () => {
     return (
-        <main>
+        <div style={{width:"100%"}}>
             <EMaisAnuncios>
                 <Descrição>Descrição do produto</Descrição>
                 <Titulo>Peças únicas</Titulo>
@@ -11,6 +11,6 @@ export const MaisAnuncios = () => {
                 <Medidas>Medidas:</Medidas>
             </EMaisAnuncios>
             <Background />
-        </main>
+        </div>
     )
 }

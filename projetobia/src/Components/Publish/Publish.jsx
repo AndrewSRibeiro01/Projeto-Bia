@@ -22,33 +22,37 @@ const Publish = (props) => {
 
     useEffect(() => {
         const values = data.filter(item => item.id == id)
-        if (!values) navigate('/404')
+        const values1 = data.find(item => item.id == id)
+        
+        if (!values || !values1) navigate('/404')
         setValues(values)
     }, [])
 
     return (
         <Principal>
             <Espaço />
-            <div style={{}}>
-                <Swiper style={{}}
+            <div>
+                <Swiper
                     spaceBetween={30}
                     modules={[Autoplay, FreeMode, Navigation]}
                     navigation={true}
                     className="mySwiper"
                     freeMode={true}
                     slidesPerView={1}
-                    >
+                >
 
                     {values.length > 0 && values.map((value, key) =>
 
 
                         <Link to="/Anuncio/11" style={{ textDecoration: "none", color: "black" }}>
-                            {value.images.map((image, index) => <SwiperSlide key={key}> <Imagem key={index} draggable="false" src={image} alt="Camisa" width="74%" style={{ border: "solid #eb9c20" }} />    <p className="card-text" style={{ background: "white", fontWeight: "400px", display: "flex", justifyContent: "center", maxWidth: "300px", border: "solid #eb9c20", borderRadius: "10px", margin: "auto" }}>R${value.price},00 <br />{value.description}</p>
-                            </SwiperSlide>
+                            {value.images.map((image, index) =>
+                                <SwiperSlide key={key}>
+                                    <Imagem key={index} draggable="false" src={image} alt="Camisa" width="74%" style={{ border: "solid #eb9c20" }} />
+
+                                    <p className="card-text" style={{ background: "white", fontWeight: "400px", display: "flex", justifyContent: "center", maxWidth: "300px", border: "solid #eb9c20", borderRadius: "10px", margin: "auto" }}>R${value.price},00 <br />{value.description}
+                                    </p>
+                                </SwiperSlide>
                             )}
-
-
-
                             <Div />
                         </Link>
 
