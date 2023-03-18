@@ -70,3 +70,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/507ceb40-5f75-4c0f-8091-168089af4f39/deploy-status)](https://app.netlify.com/sites/patroa-imports-shein/deploys)
+
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
