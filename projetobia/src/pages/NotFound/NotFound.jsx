@@ -1,15 +1,8 @@
-import styled from "styled-components"
 import { Espaço } from "../../Estilizações/EMain"
 import ImgNotFound from "../../Imagens/NotFound.png"
+import { DivNot } from "../../Estilizações/ENotFound"
+import { Color } from "../../Estilizações/ENotFound"
 
-const DivNot = styled.div`
-  background-color: #e4b1a5;
-  text-align: center;
-  width: 100%;
-`
-const Color = styled.div`
-    background-color: #e4b1a5;
-`
 export const NotFound = () => {
     return (
         <Color>

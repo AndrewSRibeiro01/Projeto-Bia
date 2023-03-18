@@ -1,12 +1,22 @@
 import { EBotão } from "../../Estilizações/EBotão"
 import Carrinho from "../../Imagens/CarrinhoDeCompras.png"
 import Cifrão from "../../Imagens/Cifrão.png"
+// import data from "../../db/db.json"
 
 const Botão = () => {
+
+
+    // const consultar = () => {
+    //     data.find(item => item.id)
+    // }
+
+    // const Click = () => {
+    //     localStorage.setItem(consultar);
+    // };
     return (
         <EBotão>
             <div>
-                <button className="verde">Comprar
+                <button /*onClick={Click}*/ className="verde">Comprar
                     <img width="25px" height="25px" src={Cifrão} alt="Dolar" />
                 </button>
             </div>
@@ -19,5 +29,4 @@ const Botão = () => {
         </EBotão>
     )
 }
-
 export default Botão
