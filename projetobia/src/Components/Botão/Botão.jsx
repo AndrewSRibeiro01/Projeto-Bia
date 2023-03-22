@@ -1,32 +1,50 @@
 import { EBotão } from "../../Estilizações/EBotão"
 import Carrinho from "../../Imagens/CarrinhoDeCompras.png"
 import Cifrão from "../../Imagens/Cifrão.png"
-// import data from "../../db/db.json"
+import { Link } from "react-router-dom"
+import { useState } from "react"
 
-const Botão = () => {
+const Botão = ({ value }) => {
+    const Click = () => {
+        const cartLocal = JSON.parse(sessionStorage.getItem('cart'))
+
+        if (cartLocal) {
+            sessionStorage.setItem('cart', JSON.stringify([...cartLocal, value.description]));
+        } else {
+            sessionStorage.setItem('cart', JSON.stringify([value.description]));
+        }
+        console.log(Click)
+    };
+
+    const [responses, setResponses] = useState([])
+    const [contador, setContador] = useState(0)
 
 
-    // const consultar = () => {
-    //     data.find(item => item.id)
-    // }
+    const Get = () => {
+        setResponses(JSON.parse(sessionStorage.getItem('cart')))
+    };
 
-    // const Click = () => {
-    //     localStorage.setItem(consultar);
-    // };
     return (
         <EBotão>
             <div>
-                <button /*onClick={Click}*/ className="verde">Comprar
-                    <img width="25px" height="25px" src={Cifrão} alt="Dolar" />
-                </button>
-            </div>
-            <div>
-                <button className="amarelo">
+                <Link to={`https://wa.me/5511934627103?text=Olá%2C+Bianca%2C+estes+são+os+produtos+que+quero+comprar%2C+=>+${responses.join(', ')}`} Target="_blank">
+
+                    <button onClick={Get} className="verde">Comprar
+
+                        <img width="25px" height="25px" src={Cifrão} alt="Dolar" />
+
+                    </button>
+                </Link>
+            </div >
+            <div style={{ display: "flex" }}>
+                <button id="Carrinho" onClick={() => { Click(); setContador(contador + 1) }} className="amarelo">
                     Carrinho
                     <img width="30px" height="30px" src={Carrinho} alt="Carrinho" />
                 </button>
+                <div style={{ width: "30px", height: "44px", margin: "0 0 0 5px", background: "white" }} ><p id="display" style={{ margin: 10 }}>{contador} Clear</p>
+                </div>
             </div>
-        </EBotão>
+        </EBotão >
     )
 }
 export default Botão

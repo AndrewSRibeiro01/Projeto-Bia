@@ -19,7 +19,7 @@ function Main() {
 
                                 <div className="card-body" style={{ background: "white" }}>
 
-                                    <p className="card-text" style={{ fontWeight: 400 }}> R${item.price},00<br /> {item.description}</p>
+                                    <p className="card-text" style={{ fontWeight: 400, color: "rgb(149, 101, 26)" }}> R${item.price},00<br /> {item.description}</p>
                                 </div>
                             </Link>
                         </div>

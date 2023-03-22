@@ -38,26 +38,26 @@ const Publish = (props) => {
                     freeMode={true}
                     slidesPerView={1}
                 >
-
                     {values.length > 0 && values.map((value, key) =>
+                        <>
+                            <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+                                {value.images.map((image, index) =>
+                                    <SwiperSlide key={key}>
+                                        <Imagem key={index} draggable="false" src={image} alt="Camisa" width="74%" style={{ border: "solid #eb9c20" }} />
 
-
-                        <Link to="/" style={{ textDecoration: "none", color: "black" }}>
-                            {value.images.map((image, index) =>
-                                <SwiperSlide key={key}>
-                                    <Imagem key={index} draggable="false" src={image} alt="Camisa" width="74%" style={{ border: "solid #eb9c20" }} />
-
-                                    <p className="card-text" style={{ background: "white", fontWeight: "400px", color: "rgb(149 101 26)", display: "flex", justifyContent: "center", maxWidth: "300px", border: "solid #eb9c20", borderRadius: "10px", margin: "auto" }}>R${value.price},00 <br />{value.description}
-                                    </p>
-                                </SwiperSlide>
-                            )}
-                            <Div />
-                        </Link>
-
+                                        <p className="card-text" style={{ background: "white", fontWeight: "400px", color: "rgb(149 101 26)", display: "flex", justifyContent: "center", maxWidth: "300px", border: "solid #eb9c20", borderRadius: "10px", margin: "auto" }}>R${value.price},00 <br />{value.description}
+                                        </p>
+                                    </SwiperSlide>
+                                )}
+                                <Div />
+                            </Link>
+                            <Botão />
+                        </>
                     )}
                 </Swiper>
+                <Botão value={values[0]} />
             </div>
-            <Botão />
+
             <MaisAnuncios description={values.description} />
         </Principal >
     )
