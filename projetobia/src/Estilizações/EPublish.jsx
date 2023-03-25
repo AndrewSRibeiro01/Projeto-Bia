@@ -23,7 +23,7 @@ export const Espaço = styled.div`
     width: 100%;
     height: 5px;
     background-color: #59371c;
-    margin-bottom: 70px;
+    margin-bottom: 0px;
 `
 export const EMaisAnuncios = styled.div`
     padding: 15px;

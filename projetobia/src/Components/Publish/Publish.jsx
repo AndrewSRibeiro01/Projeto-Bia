@@ -11,6 +11,19 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Autoplay, FreeMode, Navigation } from "swiper";
+import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
+import BasicModal from "./Modal"
+
+import styled from "styled-components"
+const ButtonBack = styled.div`
+  display: flex;
+  margin: 5px 10px;
+  color:rgb(89, 55, 28);
+  justify-content: space-between;
+  width: 98%;
+`
+
+
 
 const Publish = (props) => {
 
@@ -29,8 +42,18 @@ const Publish = (props) => {
     return (
         <Principal>
             <Espaço />
+            <ButtonBack>
+                <Link to={"/"}>
+                    <KeyboardBackspaceIcon sx={{ fontSize: 30, color: "rgb(89, 55, 28)" }} />
+                </Link>
+                <BasicModal />
+            </ButtonBack>
+
+
+
+
             <div>
-                <Swiper
+                <Swiper style={{ marginTop: 70 }}
                     spaceBetween={30}
                     modules={[Autoplay, FreeMode, Navigation]}
                     navigation={true}
