@@ -28,7 +28,7 @@ const Botão = ({ value }) => {
     return (
         <EBotão>
             <div>
-                <Link to={`https://wa.me/5511934627103?text=Olá%2C+Bianca%2C+estes+são+os+produtos+que+quero+comprar%2C+=>+${responses.join(', ')}`} /*Target="_blank"*/>
+                <Link to={`https://wa.me/5511934627103?text=Olá%2C+Bianca%2C+estes+são+os+produtos+que+quero+comprar%2C+=>+${responses.join(', ')}`}>
 
                     <button onClick={Get} className="verde">Comprar
 
@@ -42,13 +42,23 @@ const Botão = ({ value }) => {
                     Carrinho
                     <img width="30px" height="30px" src={Carrinho} alt="Carrinho" />
                 </button>
-                <div style={{ width: "65px", height: "44px", margin: "0 0 0 5px", background: "white", display: "flex", alignItems: "center" }} >
+                <div
+                    style={{
+                        width: "65px",
+                        height: "44px",
+                        margin: "0 0 0 5px",
+                        background: "white",
+                        display: "flex",
+                        alignItems: "center",
+                        borderRadius: "7px",
+                        border: "solid 2px rgb(235, 156, 32)"
+                    }}>
                     <p id="display" style={{ margin: 10 }}>{contador}</p>
 
                     <DeleteForeverIcon onClick={() => {
                         sessionStorage.removeItem("cart")
                         setContador(0)
-                        }} style={{ fontSize: "30px", borderRadius: "7px" }} />
+                    }} style={{ fontSize: "30px" }} />
                 </div>
             </div>
         </EBotão >

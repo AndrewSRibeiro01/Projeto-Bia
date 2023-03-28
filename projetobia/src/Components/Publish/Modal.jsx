@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
+import CloseIcon from '@mui/icons-material/Close';
 
 const style = {
   position: 'absolute',
@@ -24,9 +25,9 @@ export default function BasicModal() {
 
   return (
     <div>
-      <Button onClick={handleOpen}>  
-      <LocalMallIcon sx={{ fontSize: 30, color: "rgb(89, 55, 28)" }} />
-       </Button>
+      <Button onClick={handleOpen}>
+        <LocalMallIcon sx={{ fontSize: 30, color: "rgb(89, 55, 28)" }} />
+      </Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -34,6 +35,16 @@ export default function BasicModal() {
         aria-describedby="modal-modal-description"
       >
         <Box borderRadius="10px" sx={style}>
+        <CloseIcon
+            onClick={handleClose}
+            className='closeIcon'
+            style={{
+              top: 0,
+              position: "absolute",
+              display: "flex",
+              left: 366,
+              marginTop: 3,
+            }} />
           <Typography id="modal-modal-title" variant="h6" component="h2">
             Este é seu carrinho de compras
           </Typography>
