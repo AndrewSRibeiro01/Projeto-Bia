@@ -13,17 +13,7 @@ import 'swiper/css/pagination';
 import { Autoplay, FreeMode, Navigation } from "swiper";
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import BasicModal from "./Modal"
-
-import styled from "styled-components"
-const ButtonBack = styled.div`
-  display: flex;
-  margin: 5px 10px;
-  color:rgb(89, 55, 28);
-  justify-content: space-between;
-  width: 98%;
-`
-
-
+import { ButtonBack } from "../../Estilizações/EPublish"
 
 const Publish = (props) => {
 
@@ -48,10 +38,6 @@ const Publish = (props) => {
                 </Link>
                 <BasicModal />
             </ButtonBack>
-
-
-
-
             <div>
                 <Swiper style={{ marginTop: 70 }}
                     spaceBetween={30}
@@ -66,9 +52,32 @@ const Publish = (props) => {
                             <Link to="/" style={{ textDecoration: "none", color: "black" }}>
                                 {value.images.map((image, index) =>
                                     <SwiperSlide key={key}>
-                                        <Imagem key={index} draggable="false" src={image} alt="Camisa" width="74%" style={{ border: "solid #eb9c20" }} />
+                                        <Imagem key={index}
+                                            draggable="false"
+                                            src={image}
+                                            alt="Camisa"
+                                            width="74%"
+                                            style={{ border: "solid #eb9c20" }}
+                                        />
 
-                                        <p className="card-text" style={{ background: "white", fontWeight: "400px", color: "rgb(149 101 26)", display: "flex", justifyContent: "center", maxWidth: "300px", border: "solid #eb9c20", borderRadius: "10px", margin: "auto" }}>R${value.price},00 <br />{value.description}
+                                        <p
+                                            className="card-text"
+                                            style={{
+                                                background: "white",
+                                                fontWeight: "400px",
+                                                color: "rgb(149 101 26)",
+                                                display: "flex",
+                                                justifyContent: "center",
+                                                maxWidth: "300px",
+                                                border: "solid #eb9c20",
+                                                borderRadius: "10px",
+                                                margin: "auto"
+                                            }}
+                                        >
+                                            R${value.price},
+                                            00
+                                            <br />
+                                            {value.description}
                                         </p>
                                     </SwiperSlide>
                                 )}

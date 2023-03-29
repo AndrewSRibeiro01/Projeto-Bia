@@ -53,3 +53,10 @@ export const Medidas = styled.h2`
     text-align: left;
     margin-top: 30px;
 `
+export const ButtonBack = styled.div`
+  display: flex;
+  margin: 5px 10px;
+  color:rgb(89, 55, 28);
+  justify-content: space-between;
+  width: 98%;
+`

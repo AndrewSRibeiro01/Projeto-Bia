@@ -16,6 +16,7 @@ const style = {
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
+  borderRadius: "10px"
 };
 
 export default function BasicModal() {
@@ -34,8 +35,8 @@ export default function BasicModal() {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box borderRadius="10px" sx={style}>
-        <CloseIcon
+        <Box sx={style}>
+          <CloseIcon
             onClick={handleClose}
             className='closeIcon'
             style={{
@@ -45,13 +46,16 @@ export default function BasicModal() {
               left: 366,
               marginTop: 3,
             }} />
-          <Typography id="modal-modal-title" variant="h6" component="h2">
+          <Typography id="modal-modal-title"
+            variant="h6"
+            component="h2"
+          >
             Este é seu carrinho de compras
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            
+          <Typography id="modal-modal-description"
+            sx={{ mt: 2 }}
+          >
             Os produtos vão ficar aki, em forma de cards
-
           </Typography>
         </Box>
       </Modal>
