@@ -5,6 +5,8 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 import CloseIcon from '@mui/icons-material/Close';
+import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+import { useState } from "react"
 
 const style = {
   position: 'absolute',
@@ -20,6 +22,14 @@ const style = {
 };
 
 export default function BasicModal() {
+
+  const [responses, setResponses] = useState([])
+  const [contador, setContador] = useState(0)
+
+  const Get = () => {
+    setResponses(JSON.parse(sessionStorage.getItem('cart')))
+};
+
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -55,7 +65,14 @@ export default function BasicModal() {
           <Typography id="modal-modal-description"
             sx={{ mt: 2 }}
           >
-            Os produtos vão ficar aki, em forma de cards
+            Os produtos vão ficar aki, em forma de cards <br /> <br />
+            
+            {contador}
+
+            <DeleteForeverIcon onClick={() => {
+                        sessionStorage.removeItem("cart")
+                        setContador(0)
+                    }} style={{ fontSize: "30px" }} />
           </Typography>
         </Box>
       </Modal>

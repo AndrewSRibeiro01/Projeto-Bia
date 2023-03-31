@@ -5,7 +5,6 @@ import { Link } from "react-router-dom"
 import { useState } from "react"
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
-
 const Botão = ({ value }) => {
     const Click = () => {
         const cartLocal = JSON.parse(sessionStorage.getItem('cart'))
@@ -19,7 +18,6 @@ const Botão = ({ value }) => {
 
     const [responses, setResponses] = useState([])
     const [contador, setContador] = useState(0)
-
 
     const Get = () => {
         setResponses(JSON.parse(sessionStorage.getItem('cart')))
