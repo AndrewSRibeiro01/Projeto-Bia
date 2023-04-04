@@ -56,7 +56,7 @@ const Botão = ({ value }) => {
                     <DeleteForeverIcon onClick={() => {
                         sessionStorage.removeItem("cart")
                         setContador(0)
-                    }} style={{ fontSize: "30px" }} />
+                    }} style={{ fontSize: "30px", cursor:"pointer"}} />
                 </div>
             </div>
         </EBotão >

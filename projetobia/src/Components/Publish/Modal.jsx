@@ -28,7 +28,7 @@ export default function BasicModal() {
 
   const Get = () => {
     setResponses(JSON.parse(sessionStorage.getItem('cart')))
-};
+  };
 
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -55,6 +55,7 @@ export default function BasicModal() {
               display: "flex",
               left: 366,
               marginTop: 3,
+              cursor: "pointer"
             }} />
           <Typography id="modal-modal-title"
             variant="h6"
@@ -66,13 +67,16 @@ export default function BasicModal() {
             sx={{ mt: 2 }}
           >
             Os produtos vão ficar aki, em forma de cards <br /> <br />
-            
+
             {contador}
 
             <DeleteForeverIcon onClick={() => {
-                        sessionStorage.removeItem("cart")
-                        setContador(0)
-                    }} style={{ fontSize: "30px" }} />
+              sessionStorage.removeItem("cart")
+              setContador(0)
+            }} style={{
+              fontSize: "30px",
+              cursor: "pointer"
+            }}/>
           </Typography>
         </Box>
       </Modal>
