@@ -37,7 +37,10 @@ export default function BasicModal() {
   return (
     <div>
       <Button onClick={handleOpen}>
-        <LocalMallIcon sx={{ fontSize: 30, color: "rgb(89, 55, 28)" }} />
+        <LocalMallIcon sx={{
+          fontSize: 30,
+          color: "rgb(89, 55, 28)"
+        }} />
       </Button>
       <Modal
         open={open}
@@ -76,7 +79,7 @@ export default function BasicModal() {
             }} style={{
               fontSize: "30px",
               cursor: "pointer"
-            }}/>
+            }} />
           </Typography>
         </Box>
       </Modal>
