@@ -14,7 +14,7 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 400,
-  bgcolor: 'background.paper',
+  bgcolor: '#eac7b4', 
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
@@ -69,7 +69,7 @@ export default function BasicModal() {
           <Typography id="modal-modal-description"
             sx={{ mt: 2 }}
           >
-            Os produtos vão ficar aki, em forma de cards <br /> <br />
+            Os produtos vão ficar aqui, em forma de cards <br /> <br />
 
             {contador}
 
