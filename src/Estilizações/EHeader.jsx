@@ -10,6 +10,13 @@ export const Navbar = styled.header`
   margin: 0;
   padding: 0;
 `
+export const Button = styled.button`
+    border: none;
+    :focus{
+        box-shadow: none;
+    }
+    margin-right: 15px;
+`
 export const ImgPatroa = styled.img`
   width: 224px;
   margin: 0 0 0 10px;
