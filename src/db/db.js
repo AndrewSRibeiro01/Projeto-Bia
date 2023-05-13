@@ -1,7 +1,4 @@
-import vestido from '../Imagens/Vestido.png';
-import cropped from "../Imagens/Cropped.png"
-import biquini from "../Imagens/Biquini.png"
-import lingerie from "../Imagens/Lingerie.png"
+import { vestido, cropped, biquini, lingerie } from '../Components/assets';
 
 const variedades = [{
     nome: 'Vestidos',

@@ -1,6 +1,5 @@
 import { EBotão } from "../../Estilizações/EBotão"
-import Carrinho from "../../Imagens/CarrinhoDeCompras.png"
-import Cifrão from "../../Imagens/Cifrão.png"
+import { carrinho, cifrão } from "../assets"
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
@@ -30,7 +29,7 @@ const Botão = ({ value }) => {
 
                     <button onClick={Get} className="verde">Comprar
 
-                        <img width="25px" height="25px" src={Cifrão} alt="Dolar" />
+                        <img width="25px" height="25px" src={cifrão} alt="Dolar" />
 
                     </button>
                 </Link>
@@ -38,7 +37,7 @@ const Botão = ({ value }) => {
             <div style={{ display: "flex", alignItems: "center" }}>
                 <button id="Carrinho" onClick={() => { Click(); setContador(contador + 1) }} className="amarelo">
                     Carrinho
-                    <img width="30px" height="30px" src={Carrinho} alt="Carrinho" />
+                    <img width="30px" height="30px" src={carrinho} alt="Carrinho" />
                 </button>
                 <div
                     style={{
@@ -56,7 +55,7 @@ const Botão = ({ value }) => {
                     <DeleteForeverIcon onClick={() => {
                         sessionStorage.removeItem("cart")
                         setContador(0)
-                    }} style={{ fontSize: "30px", cursor:"pointer"}} />
+                    }} style={{ fontSize: "30px", cursor: "pointer" }} />
                 </div>
             </div>
         </EBotão >
