@@ -1,4 +1,4 @@
-import { patroa1 } from "../assets"
+import {  } from "../assets"
 import { Link } from "react-router-dom"
 import { H5, Button, Navbar, ImgPatroa } from "../../Estilizações/EHeader"
 import Map from "./Map"
