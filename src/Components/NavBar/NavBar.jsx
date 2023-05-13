@@ -21,7 +21,6 @@ const NavBar = () => {
                             <H5 className="offcanvas-title" id="offcanvasNavbarLabel">Variedades</H5>
                             <Button className="btn-close" data-bs-dismiss="offcanvas"></Button>
                         </div>
-
                         <div style={{ height: "auto", overflow: "auto" }}>
                             {variedades.map((item, index) => (
                                 <Map key={index}{...item} />

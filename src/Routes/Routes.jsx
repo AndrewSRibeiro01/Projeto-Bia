@@ -11,7 +11,6 @@ const AppRoute = () => {
         <>
             <Header />
             <Routes>
-                
                 <Route path="/" element={<Inicio />} />
                 <Route path="/Anuncio/:id" element={<Anuncio />} />
                 <Route path="*" element={<NotFound />} />
